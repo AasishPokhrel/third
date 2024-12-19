@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.main {
+    height: 90%;
+    width: 80%;
+border: 1px solid black;
+background-color: white;
+    
+    /* justify-content: center;
+    align-items: center; */
+}
+.nav {
+    display: flex;
+    cursor: pointer;
+    text-shadow: 2px 2px 5px gray;
+}
+#box1 {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.j {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: blueviolet;
+}
+.joe {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.home {
+    font-size: 2rem;
+}
+.about {
+    font-size: 2rem;
+}
+.port {
+    font-size: 2rem;
+}
+.blog {
+    font-size: 2rem;
+}
+.contact {
+    font-size: 2rem;
+}
+#nn {
+    background-color: blueviolet;
+    font-size: x-large;
+    margin-left: 300px;
+    border-radius: 20%;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+.two {
+    display: flex;
+   
+}
+.text {
+    margin-top: 220px;
+}
+.ex {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.as {
+    color: blueviolet;
+}
+.fron {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.lorem {
+    font-size: medium;
+    font-weight: 400;
+}
+.image {
+    display: flex;
+    /* margin-top: 220px;
+    margin-left: 150px; */
+}
+.inp {
+    margin-left: 200px;
+}
+#but {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20%;
+    font-size: x-large;
+}
+#pro {
+    border-color: blueviolet;
+    color: blueviolet;
+    border-radius: 20%;
+    font-size: x-large;
+}
+.three {
+    display: flex;
+}
+.facebook {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: blueviolet;
+}
+.linkedin {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: blueviolet;
+}
+.twiteer {
+    color: blueviolet;
+}
